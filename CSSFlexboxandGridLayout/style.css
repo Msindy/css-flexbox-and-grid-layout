@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: lexendeca;
+  src: url(://fonts.google.com/specimen/Lexend+Deca);
+  font-weight: 400;
+}
+@font-face {
+  font-family: bigshouldersdisplay;
+  src: url(https://fonts.google.com/specimen/Big+Shoulders+Display);
+  font-weight: 700;
+}
+main {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: hsl(0, 0%, 95%);
+}
+div {
+  padding: 2em;
+}
+div p {
+  font-size: 15px;
+  color: white;
+  padding-bottom: 1em;
+  font-family: lexenddeca;
+}
+div h1 {
+  text-transform: uppercase;
+  padding-bottom: 1em;
+  color: white;
+  font-family: bigshouldersdisplay;
+}
+.sedan {
+  background-color: hsl(31, 77%, 52%);
+}
+.suv {
+  background-color: hsl(184, 100%, 22%);
+}
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+button {
+  background-color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 10px 25px;
+  border-radius: 30px;
+  transition: transform 0.4s;
+}
+.btn1 {
+  color: hsl(31, 77%, 52%);
+}
+.btn2 {
+  color: hsl(184, 100%, 22%);
+}
+.btn3 {
+  color: hsl(179, 100%, 13%);
+}
+button:hover {
+  background-color: transparent;
+  border: 2px solid white;
+  cursor: pointer;
+  color: white;
+}
+
+@media (min-width: 375px) and (max-width:1440px) {
+main {
+      justify-content: space-around;
+  }
+}
+
